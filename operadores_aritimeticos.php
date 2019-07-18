@@ -4,19 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> if else operadores condicionais</title>
+    <title>operadores aritimeticos</title>
 </head>
 <body>
 
     <?php
-     if(2==2){
-         echo 'verdadeiro';
+      $num1=13;
+      $num2=4;
 
-     }
-     else{
-       echo 'falso';
-     }
    ?>
+
   
 </body>
 </html>
