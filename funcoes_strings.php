@@ -27,7 +27,12 @@
         echo"<hr/>";
         //string replace
         echo $texto."<br/>";  
-        echo str_replace('PHP','philpe',$texto);
+        echo str_replace('PHP','philpe',$texto);//esta porra é case sensitive
+
+        echo"<hr/>";
+        //string replace
+        echo $texto."<br/>";  
+        echo substr($texto,1,4); // extrai dados das variaveis e arrays
 
 
     ?>
