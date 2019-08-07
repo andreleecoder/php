@@ -58,14 +58,24 @@
 
     echo'<pre>';
     print_r($arrAyTudo);
-    echo'</pre>';*/
+    echo'</pre>';
 
     $string="20/04/19";
     $array_explode=explode("/",$string);
     echo'<pre>';
     echo $string;
     print_r($array_explode);
+    echo $array_explode[2].'-'.$array_explode[1].'-'.$array_explode[0];
+    echo'</pre>'; */
+    
+   $array=["a","b","c","d"];
+
+    echo'<pre>';
+    print_r($array);
     echo'</pre>';
+
+   $juntar= implode(',', $array);
+    echo $juntar;
 
 
     ?>
