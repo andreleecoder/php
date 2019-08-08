@@ -9,7 +9,20 @@
 <body>
    
     <?php
-    
+    $num=1;
+    echo"--inicio do loop--<br/>";
+     while ($num<10) {
+       
+         $num+=1;//critério de parada
+         if($num==2||$num==6){
+             continue;
+         }
+         echo"$num <br/>";
+         /*if($num>100){
+             break;
+         }*/
+     }
+    echo"--fim do loop--";
     ?>
   
 </body>
