@@ -9,6 +9,17 @@
 <body>
    
     <?php
+    $x=10;
+    do {
+        echo'Entrou no do while';
+        //continue e break podem ser usados aqui
+    } while ($x < 9);
+    echo'<hr/>';
+    while($x > 9){
+        echo'Entrou no while';
+        break;
+
+    }
   
     ?>
   
