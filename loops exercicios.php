@@ -12,12 +12,13 @@
    do sorteio da mega sena, atente-se ao fato de que os numeros aleatorios 
    contidos dentro do array nao podem ser repetidos.
 
-   inicio programa
+inicio algoritmo
     criar array de 6 elementos
     gerar numeros de forma aleatória
     imprimir resultado na tela 
     atualizar pagina 
     gerar mais numeros aleatórios
+fim algoritmo
 
     <?php
     
