@@ -29,7 +29,7 @@
     print_r($retorno);
     echo'</pre>';*/
 
-   /* $array=['coberta','travesseiro','conchinha'];
+   $array=['coberta','travesseiro','conchinha'];
     
     echo'<pre>';
     print_r($array);
@@ -40,7 +40,7 @@
     print_r($array);
     echo'</pre>';*/
 
-   /* $array=['coberta','travesseiro','conchinha'];
+    $array=['coberta','travesseiro','conchinha'];
     
     echo'<pre>';
     print_r($array);
@@ -66,7 +66,7 @@
     echo $string;
     print_r($array_explode);
     echo $array_explode[2].'-'.$array_explode[1].'-'.$array_explode[0];
-    echo'</pre>'; */
+    echo'</pre>'; 
     
    $array=["a","b","c","d"];
 
