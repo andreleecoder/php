@@ -1,3 +1,4 @@
+
 <html>
   <head>
     <meta charset="utf-8" />
@@ -32,13 +33,21 @@
               Login
             </div>
             <div class="card-body">
-              <form action="valida_login.php">
+              <form action="valida_login.php" method="post">
                 <div class="form-group">
                   <input name="email" type="email" class="form-control" placeholder="E-mail">
                 </div>
                 <div class="form-group">
                   <input name="senha" type="password" class="form-control" placeholder="Senha">
                 </div>
+                <?
+                    if (isset($_GET['login'])&&$_GET['login']=='erro' ) {?>
+                      <div class="text-danger">
+                      usuario ou senha invalido(s)
+                      </div>
+
+                   <?}?> 
+                    
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>
             </div>
