@@ -1,4 +1,5 @@
 <?php
+session_start();
 $usuario_autenticado=false;
 $usuarios_app=[
     ['email'=>'adm@teste.com.br','senha'=>'1234'],
